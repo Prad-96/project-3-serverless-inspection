@@ -1,0 +1,34 @@
+Serverless Inspection Platform
+
+This project demonstrates a fully serverless, event-driven AWS architecture.
+
+Services Used:
+Route 53
+CloudFront
+S3
+API Gateway
+Lambda
+DynamoDB
+SNS
+SQS
+VPC Endpoints
+
+Features:
+React frontend hosted on S3
+Inspection metadata stored in DynamoDB
+Image uploads using presigned S3 URLs
+API Gateway integrated with Lambda
+SNS/SQS asynchronous processing
+Worker Lambda updates inspection status
+
+Workflow:
+1. User opens React frontend.
+2. User creates an inspection.
+3. API Gateway invokes Lambda.
+4. Lambda stores inspection metadata in DynamoDB.
+5. User uploads image directly to S3 using presigned URL.
+6. User clicks Process Inspection.
+7. Lambda publishes message to SNS.
+8. SNS sends message to SQS.
+9. SQS triggers worker Lambda.
+10. Worker Lambda updates DynamoDB status to COMPLETED.

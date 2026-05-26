@@ -1,0 +1,1 @@
+{"statusCode":200,"headers":{"Access-Control-Allow-Origin":"*","Content-Type":"application/json"},"body":"[{\"inspectionId\":\"d914d047-1b41-4244-b3e9-ef5301cb99c0\",\"createdAt\":\"2026-05-26T21:10:30.412Z\",\"description\":\"First test from Lambda\",\"updatedAt\":\"2026-05-26T21:10:30.412Z\",\"title\":\"Test Inspection\",\"status\":\"PENDING\"}]"}

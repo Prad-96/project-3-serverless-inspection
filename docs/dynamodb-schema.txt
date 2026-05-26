@@ -1,0 +1,19 @@
+DynamoDB Schema
+
+Table Name:
+inspections
+
+Partition Key:
+inspectionId - String
+
+Attributes:
+inspectionId
+title
+description
+status
+createdAt
+updatedAt
+
+Status Values:
+PENDING
+COMPLETED

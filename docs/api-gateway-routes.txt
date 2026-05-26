@@ -1,0 +1,10 @@
+API Gateway Routes
+
+Base URL:
+https://ue8ms8o4na.execute-api.us-east-1.amazonaws.com/prod
+
+Routes:
+POST /inspections
+GET /inspections
+POST /upload-url
+POST /process-inspection
